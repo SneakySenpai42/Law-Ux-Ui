@@ -1,4 +1,27 @@
 /* global css */
+body {
+  min-height: 100vh;
+  font-family: Roboto, Arial;
+  color: #ADAFB6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F5F9FF;
+}
+
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+*:before, *:after {
+  box-sizing: inherit;
+}
+
 p {
   color: black;
   font-size: 2em;
@@ -171,27 +194,6 @@ p {
       pointer-events: auto;
     }
   }
-  html {
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-  }
-  
-  * {
-    box-sizing: inherit;
-  }
-  *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  body {
-    min-height: 100vh;
-    font-family: Roboto, Arial;
-    color: #ADAFB6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #F5F9FF;
-  }
 .animation {
   position: absolute;
     left: 50%;
@@ -240,12 +242,6 @@ p {
 }
 
 /* on off switch */
-body{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .wrapper{
     text-align: center;
 }
