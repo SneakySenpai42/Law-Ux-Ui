@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ui design</title>
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Livvic:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+        <!-- website logo -->
+    <div class="container-fluid">
+        <a href="/index.html"><img class= "logo" src="/img/lawlogo.png" alt=""></a>
+    </div>
+        
+    <div class="container">
+        <div class="row infoBody">
+            <div class="uiHead">
+                <p>What is Ui? What does it do?</p>
+                <br>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img class="uiPhone" src="/img/uiEx.png" alt="">
+                    </div>
+                    <p>It is simply what you visbly see/interact with.</p>
+                    <div class="col-lg-4 col-lg-offset-3"> 
+                        <a href="https://bitwiseindustries.com/">
+                            <img style="margin-top: 50px" class="bitwiseEx" src="/img/bitwiseEx.JPG" alt="">
+                        </a>
+                    </div>
+                </div>
+                <p>A very good example of good Ui design is the bitwise website. A good clean site that is easy on the eyes as well easy to navigate.</p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class='wrapper'>
+                <p>An example of Ui interface that is helpful to the user is a simple switch to change from light to dark mode. </p>
+                <input type='checkbox' id='checkable' />
+                <label for='checkable'></label>
+            </div>	
+        </div>
+    </div>
+
+    <script>
+            setTimeout( function(){
+        $("#checkable").attr('checked', true);
+    }, 500);
+    
+    setTimeout( function(){
+        $("#checkable").removeAttr('checked');
+    }, 2000);
+
+        </script>
+</body>
+</html>

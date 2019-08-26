@@ -1,0 +1,91 @@
+/* global css */
+p {
+    color: black;
+    font-size: 2em;
+  }
+  
+  
+  .logo {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    float: none;
+  }
+ 
+/* ux css */
+.infoBody{
+    margin-top: 200px;
+    font-family: 'Livvic', sans-serif;
+  }
+  
+  .temphead>p{
+    color: black;
+    font-size: 2em;
+    /* height: 20px; */
+  }
+  
+  .uxInfo {
+  
+    height: 500px;
+    width: 400px;
+  }
+  
+  .uxButton {
+    font-size: 26px;
+    margin-left: -200px;
+    margin-top: 50px;
+  }
+  
+  /* start of Ui css */
+  
+  .uiPhone {
+    width: 500px;
+    height: 400px;
+  }
+  
+  .bitwiseEx {
+    width: 700px;
+    height: 350px;
+  }
+  
+  /* on off switch */
+body{
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.wrapper{
+      text-align: center;
+}
+#checkable{
+      display: none;
+}
+#checkable:checked + label{
+          background: #2EC4B6;
+}
+#checkable:checked + label:after {
+              transform: translate(100%, 0);
+}
+label[for='checkable'] {
+      display: block;
+      width: 150px;
+      height: 75px;
+      border-radius: 75px;
+      position: relative;
+      transition: 0.15s ease-in-out;
+      background: #E71D36;
+      margin: 0 auto;
+}
+label[for='checkable']:after {
+          content: '';
+          display: block;
+          widtH: 75px;
+          heighT: 75px;
+          border-radius: 75px;
+          box-shadow: 0px 1px 10px rgba(black, 0.35);
+          background: white;
+          transition: 0.15s ease-in-out;
+}
